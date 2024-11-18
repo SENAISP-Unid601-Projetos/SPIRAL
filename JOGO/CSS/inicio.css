@@ -1,0 +1,53 @@
+canvas {
+    background-color: #000000;
+    display: block;
+    margin: auto;
+  }
+
+  body{
+    background-color: #000000;
+  }
+
+  button{
+    width: 200px;
+    height: 80px;
+    background: #39275f;
+    color: white;
+    font-family: monospace;
+    font-size: 30px;
+    border-radius: 10px;
+    border: #39275f 2px solid;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+    transition: all 0.3s ease;
+  }
+
+  button.sumiu{
+    display: none;
+  }
+
+  button:hover{
+    font-size: 35px;
+    box-shadow: 1px 1px 50px #05e0ecb1;
+  }
+
+  a{
+    position: absolute;
+    color: white;
+    font-size: 30px;
+    border-radius: 10px;
+    background: #39275f;
+    transition: all 0.3s ease;
+    text-decoration: none;
+  }
+
+  a:hover{
+    font-size: 35px;
+    box-shadow: 1px 1px 50px #05e0ecb1;
+  }
+
+  a.sumiu{
+    display: none;
+  }

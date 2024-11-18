@@ -1,0 +1,337 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    border-top: #05e0ec 2px solid;
+    background: #000000;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 70px;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+
+}
+
+#paginas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+p{
+    margin: 50px 0px 0px 20px;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+
+
+ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    list-style: none;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 25px;
+    gap: 30px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    transition: all 2s ease;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+body{
+    background-color: #39275f;
+}
+
+#logo{
+    width: 50px;
+    height: 50px;
+    margin-right: 50px;
+}
+
+main h1{
+    text-align: center;
+    font-family: 'Trebuchet MS';
+    font-size: 200px;
+    color: white;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.reveal {
+    position: relative;
+    transform: translateY(50px);
+    opacity: 0;
+    transition: all 1s ease;
+}
+
+.reveal.active {
+    transform: translateY(0px);
+    opacity: 1;
+}
+
+
+
+#conteúdo h1{
+    background: white;
+    color: black;
+    font-family:monospace;
+    width: 30%;
+    padding: 10px;
+    font-size: 60px;
+    margin-left: 20px;
+}
+
+.linhabranca{
+    width: 80%;
+    margin-left: 20px;
+    height: 2px;
+    background:white;
+    margin-top: 10px;
+}
+
+#conteúdo{
+    margin-top: 250px;
+}
+
+.texto p{
+    width: 50%;
+    margin-left: 20px;
+    margin-bottom: 50px;
+    text-align: justify;
+    font-family: monospace;
+}
+
+h2{
+    margin-left: 20px;
+    font-size: 50px;
+    margin-top: 20px;
+    color: white;
+    font-family: monospace;
+}
+
+div#jogo{
+    width: 100%;
+}
+
+div#jogo img{
+    width: 100%;
+}
+
+div#jogo a{
+position: absolute;
+top: 50%;
+left: 50%;
+font-size: 50px;
+transform:translate(-50%,-50%);
+box-shadow:-5px -5px 10px white,5px 5px 10px white,5px -5px 10px white,-5px 5px 10px white;;
+background-color: white;
+color: black;
+font-family: monospace;
+}
+
+div#gifs{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+div#d1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+p#copy{
+    opacity: 50%;
+}
+
+div#d2{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+}
+
+div#d3{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    gap:20px;
+}
+
+div#d3 img{
+    width: 35px;
+    height: 35px;
+    opacity: 50%;
+    transition:all 0.3s ease;
+}
+
+div#d3 img:hover{
+    opacity: 100%;
+}
+
+footer{
+    padding: 10px;
+    background-color: #000000;
+    bottom: 0px;
+    border-top: white 1px solid;
+}
+
+footer p{
+    font-size: 20px;
+    margin-right: 20px;
+}
+
+.selecionado{
+    background-color:  #05e0ec;
+    color: black;
+    height: 70px;
+    width: 200px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.selecionado a{ 
+    color: black;
+}
+
+div#encher{
+margin-bottom: 200px;
+}
+
+div#encher h2{
+    background: white;
+    color: black;
+    text-align: center;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 150px;
+}
+
+div#encher p{
+    font-family: monospace;
+}
+
+/*fale conosco*/
+div#redes{
+margin-top: 50px;
+}
+
+#redes h1{
+    background: white;
+    color: black;
+    font-family: monospace;
+    font-size: 50px;
+    width: 30%;
+    margin-left: 20px;
+}
+#sugestoes{
+width: 100%;
+display: flex;
+justify-content: end;
+margin-right: 20px;
+margin-top: 100px;
+flex-direction: column;
+align-items: end;
+}
+
+#sugestoes div.linhabranca{
+    margin-right: 20px;
+}
+
+#sugestoes p {
+    font-family: monospace;
+    text-align: justify;
+    width: 50%;
+}
+
+div#logos{
+   display: flex;
+   justify-content: space-around;
+   width: 50%;
+   margin-top: 25px;
+   margin-bottom: 50px;
+}
+
+div#logos img{
+    width: 50px;
+    height: 50px;
+}
+
+#imputo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 20px 20px 50px 20px;
+    align-items: end;
+}
+
+button{
+    background: #05e0ec;
+    width: 200px;
+    height: 60px;
+    margin-left: 20px;
+    border-radius: 10px;
+    font-family: monospace;
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+    transition: all 0.3s ease;
+}
+
+button:hover{
+    background: #39275f;
+    color: white;
+    border: solid #39275f 2px;
+    box-shadow: 1px 1px 50px #05e0ecb1;
+}
+
+#butao{
+    width: 100%;
+    display: flex;
+    justify-content: baseline;
+}
+
+#contatoP h1{
+    color: black;
+    font-family: monospace;
+    background: white;
+    font-size: 50px;
+    width: 40%;
+    margin-left: 20px;
+}
+
+#contatoP{
+    margin-top: 100px;
+}
+
+#contatoP a{
+    font-size: 25px;
+    margin-left: 20px;
+    margin-top: 50px;
+    padding-top: 50px;
+}
+
+#email{
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    margin: 50px 0px 50px 0px;
+}
